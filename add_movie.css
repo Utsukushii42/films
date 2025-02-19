@@ -1,0 +1,138 @@
+/* General Styles */
+body {
+    background-color: #1a1a2e;
+    color: #e0e0e0;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 20px;
+    overflow-x: hidden;
+}
+
+/* Centering and Styling the Form */
+#add-movie-form {
+    background-color: #22223b;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1);
+    max-width: 400px;
+    margin: auto;
+    padding-right: 50px;
+    text-align: left;
+    border: 1px solid #9a8c98;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect to slightly lift the form */
+#add-movie-form:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 20px rgba(255, 255, 255, 0.15);
+}
+
+/* Form Title */
+#add-movie-form h2 {
+    text-align: center;
+    color: #c9ada7;
+    font-size: 22px;
+}
+
+/* Labels */
+#add-movie-form label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+    color: #e0e0e0;
+}
+
+/* Input & Textarea */
+#add-movie-form input,
+#add-movie-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #4a4e69;
+    border-radius: 5px;
+    background-color: #3a3a55;
+    color: white;
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Input Focus Effect */
+#add-movie-form input:focus,
+#add-movie-form textarea:focus {
+    border-color: #9a8c98;
+    box-shadow: 0 0 8px rgba(154, 140, 152, 0.6);
+    outline: none;
+}
+
+/* Placeholder Styling */
+#add-movie-form input::placeholder,
+#add-movie-form textarea::placeholder {
+    color: #bdbdbd;
+    opacity: 0.8;
+}
+
+/* Submit Button */
+#add-movie-form button {
+    background: linear-gradient(to right, #9a8c98, #c9ada7);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+/* Button Hover */
+#add-movie-form button:hover {
+    background: linear-gradient(to right, #c9ada7, #e6c7c2);
+    transform: scale(1.05);
+}
+
+/* Header Container */
+.header-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px;
+}
+
+/* Back Button */
+#backToHome {
+    background: linear-gradient(to right, #4a4e69, #6a7594);
+    color: white;
+    font-size: 14px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.2);
+    margin-bottom: 20px;
+}
+
+/* Back Button Hover */
+#backToHome:hover {
+    background: linear-gradient(to right, #6a7594, #8295b0);
+    transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .header-container {
+        justify-content: center;
+        padding: 15px 0;
+    }
+
+    #backToHome {
+        font-size: 12px;
+        padding: 8px 12px;
+    }
+
+    #add-movie-form {
+        max-width: 90%;
+        padding-right: 20px;
+    }
+}
