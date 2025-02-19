@@ -18,7 +18,7 @@ body {
     margin: auto;
     padding-right: 50px;
     text-align: left;
-    border: 1px solid #9a8c98;
+    border: 1px solid #9a2afc;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -31,7 +31,7 @@ body {
 /* Form Title */
 #add-movie-form h2 {
     text-align: center;
-    color: #c9ada7;
+    color: #a948ff;
     font-size: 22px;
 }
 
@@ -73,11 +73,12 @@ body {
 
 /* Submit Button */
 #add-movie-form button {
-    background: linear-gradient(to right, #9a8c98, #c9ada7);
+    background: linear-gradient(to right, #7300ff, #fc00da);
     color: white;
     font-size: 16px;
     font-weight: bold;
     padding: 12px;
+    margin-left: 12px;
     border: none;
     border-radius: 8px;
     cursor: pointer;
@@ -87,7 +88,7 @@ body {
 
 /* Button Hover */
 #add-movie-form button:hover {
-    background: linear-gradient(to right, #c9ada7, #e6c7c2);
+    background: linear-gradient(to right, #7300ff79, #fc00da7c);
     transform: scale(1.05);
 }
 
@@ -101,7 +102,7 @@ body {
 
 /* Back Button */
 #backToHome {
-    background: linear-gradient(to right, #4a4e69, #6a7594);
+    background: linear-gradient(to right, #c98bff, #8a2bff);
     color: white;
     font-size: 14px;
     padding: 10px 15px;
