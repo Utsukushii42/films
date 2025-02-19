@@ -151,3 +151,22 @@ button {
 #edit-movie-form button:hover {
     background-color: #9a47ff;
 }
+
+.delete-button {
+    background-color: rgb(213, 0, 0);
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+    background-color: darkred;
+}
+
+.edit-button {
+
+    background-color:#5e5e5e;
+}
