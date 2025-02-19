@@ -11,7 +11,7 @@ $(document).ready(function() {
         const compagnie = $('#compagnie').val();
         const description = $('#description').val();
         const origine = $('#origine').val();
-        const lienImage = `/img/${$('#lienImage').val()}.jpg`;
+        const lienImage = `img/${$('#lienImage').val()}`;
 
         const movieData = {
             nom,

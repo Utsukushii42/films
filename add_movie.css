@@ -1,6 +1,7 @@
 /* General Styles */
 body {
     background-color: #1a1a2e;
+    background-image: url(square_bg.png);
     color: #e0e0e0;
     font-family: 'Arial', sans-serif;
     text-align: center;

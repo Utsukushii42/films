@@ -1,7 +1,10 @@
 /* General Styles */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #1a1a2e;
+    background-color: #000000;
+
+    background-image: url(square_bg.png);
+
     color: #e0e0e0;
     text-align: center;
     margin: 0;
