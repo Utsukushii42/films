@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajouter un film</title>
+    <link rel="stylesheet" href="add_movie.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="AJAX/js/jquery-3.2.1.js"></script>
+    <script src="app.js"></script>
+    <script src="add_movie.js"></script>
+</head>
+<body>
+
+<div class="header-container"></div>
+    <a href="index.html">
+    <button id="backToHome">🏠 Retour à l'accueil</button>
+    </a>
+</div>
+
+<div id="add-movie-form">
+    <h2>Ajouter un Film</h2>
+    <form id="movie-form">
+        <label for="nom">Nom du Film:</label>
+        <input type="text" id="nom" name="nom"  placeholder="Interstellar"> <br><br>
+
+        <label for="dateDeSortie">Date de Sortie :</label>
+        <input type="text" id="dateDeSortie" name="dateDeSortie" placeholder="2025" required><br><br>
+
+        <label for="realisateur">Réalisateur:</label>
+        <input type="text" id="realisateur" name="realisateur" placeholder="Christopher Nolan" required><br><br>
+
+        <label for="note">Note de la Critique (0-5):</label>
+        <input type="number" id="note" name="note" min="0" max="5" step="0.1" placeholder="4.5"><br><br>
+
+        <label for="notePublic">Note du Public (0-5):</label>
+        <input type="number" id="notePublic" name="notePublic" min="0" max="5" step="0.1" placeholder="3.8"><br><br>
+
+        <label for="compagnie">Compagnie:</label>
+        <input type="text" id="compagnie" name="compagnie" placeholder="Indépendant" required><br><br>
+
+        <label for="description">Description:</label>
+        <textarea id="description" name="description" placeholder="Le film raconte les aventures d’un groupe d’explorateurs qui utilisent une faille récemment découverte dans l’espace-temps afin de repousser les limites humaines et partir à la conquête des distances astronomiques dans un voyage interstellaire. " required></textarea><br><br>
+
+        <label for="origine">Origine:</label>
+        <input type="text" id="origine" name="origine" placeholder="France" required><br><br>
+
+        <label for="lienImage">Nom de l'image:</label>
+        <input type="text" id="lienImage" name="lienImage" placeholder="Interstellar.jpg"><br><br>
+
+        <button type="submit">Ajouter le Film</button>
+    </form>
+</div>
+
+</body>
+</html>
